@@ -1,0 +1,81 @@
+.remove p
+{
+	line-height: 40px;
+	color: #959393;
+    font-size: 15px
+}
+.remove 
+{
+background-color: #f6f5fc;
+}
+.remove a
+{
+	text-decoration: none;
+	color: #959393;
+	font-size: 14px
+}
+.remove a:hover
+{
+	color:red;
+	text-decoration: none;
+}
+.product-detail img
+{
+	width: 100%
+}
+.detail-title
+{
+	color: #656161;
+	font-size: 14px;
+	font-weight: bold
+}
+.small-detail-text
+{
+	font-size: 14px;
+	color: #959393;
+}
+.color a
+{
+	background-color: 656161;
+	padding:5px;
+}
+.product-detail p
+{
+	    margin: 7px 0;
+}
+.product-detail p button
+{
+	width: 70%;
+	background-color: red;
+	color: #fff;
+	border: none;
+	outline: none;
+	padding:10px 0;
+	font-weight: bold
+}
+.product-detail input
+{
+	width: 45px
+}
+.size span a
+{
+	border: 1px solid black;
+    width: 27px;
+    height: 29px;
+    line-height: 29px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    color: #222;
+    text-decoration: none;
+}
+.size span a:hover
+{
+	background-color: black;
+	color: white;
+	
+}
+.price
+{
+	color:red;
+}

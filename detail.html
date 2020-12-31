@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PhuongDong Fashion</title>
+	<meta charset="utf-8"/>
+		<link href="css/style-detail.css" rel="stylesheet"/>
+		<link href="css/style.css" rel="stylesheet"/>
+		<link href="vendor/fontawesome/css/all.css" rel="stylesheet"/>
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+				<div class="row login" style="background-color: #f6f5fc;">
+					<div class="col-md-4 col-6">
+						<button style="background: none" type="button" id="myBtn" data-toggle="modal" data-target="#myModal"><i class="fa fa-user" aria-hidden="true"> <b>Sign in</b></i></button>
+  					<!-- The Modal -->
+					  <div class="modal fade" id="myModal">
+					    <div class="modal-dialog">
+					      <div class="modal-content">
+					      
+					        <!-- Modal Header -->
+					        <div class="modal-header">
+					          <h4 class="modal-title">ĐĂNG NHẬP</h4>
+					          <button type="button" class="close" data-dismiss="modal">×</button>
+					        </div>
+					        
+					        <!-- Modal body -->
+					        <div class="modal-body">
+					         <form action="/action_page.php">
+					  <div class="form-group" style="text-align: left;">
+					    <label for="email" >Email address:</label>
+					    <input type="email" class="form-control" placeholder="Enter email" id="email">
+					  </div>
+					  <div class="form-group" style="text-align: left;">
+					    <label for="pwd">Password:</label>
+					    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+					  </div>
+					  <div class="form-group form-check">
+					    <label class="form-check-label">
+					      <input class="form-check-input" type="checkbox"> Remember me
+					    </label>
+					  </div>
+					  <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+					        </div>
+					        
+					        <!-- Modal footer -->
+					        <div class="modal-footer">
+					          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					        </div>
+					        
+					      </div>
+					    </div>
+					  </div>
+  
+	
+						<a href=""><i class="fa fa-heart" aria-hidden="true"> <b>Favourites</b></i></a>
+						<a href=""><i class="fa fa-shopping-bag" aria-hidden="true"> <b>Shopping-Bag</b></i></a>
+					</div>
+					<div class="col-md-4 col-6">
+						<p>Miễn phí vận chuyển với đơn hàng trên 500k</p>
+					</div>
+					<div class="col-md-3 col-0"></div>
+						
+
+
+				</div>
+				<div class="row anh-logo" id="nav">
+					<div class="col-md-3 col-12">
+					<a href=""><img src="img/logo.png"></a>
+				</div>
+					<div class="col-md-6 col-12 logo">
+						<div class="menu" style="width: 100%">
+							<ul>
+								<li><a href="">Trang chủ</a></li>
+								<li><a href="">Sản phẩm</a></li>
+								<li><a href="">Product view</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a href="">Giới thiệu </a></li>
+								<li><a href="">Liên hệ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-12">
+						<div class="search">
+							<input type="text" placeholder="Tìm kiếm sản phẩm"><a href=""><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="container-fluid remove">
+					<p><a href="index.html">Trang Chủ </a>/ Sản Phẩm</p>
+				</div>
+				<div class="container">
+					<div class="row product-detail">
+						<div class="col-md-4 col-4">
+							<a href=""><img src=img/bestsell6.png></a>
+						</div>
+						<div class="col-md-1 col-1"></div>
+						<div class="col-md-7 col-7">
+							<h4>Áo Thun Nam Zakado Cổ Tròn</h4>
+							<p class="small-detail-text" style="border-bottom: 1px dotted black;padding-bottom: 10px">SKU: ZKD20</p>
+							<div class="price" style="border-bottom: 1px dotted black;padding-bottom: 10px">
+							<b>600.000₫</b>
+							</div>
+							<div class="color" style="border-bottom: 1px dotted black;padding: 10px 0">
+								<input type="radio" name="color" checked> 	Xám
+								<input type="radio" name="color"> Đen
+							</div>
+							<div class="size" style="border-bottom: 1px dotted black;padding-bottom: 10px">
+								<span><a href="">S</a></span>
+								<span><a href="">M</a></span>
+								<span><a href="">L</a></span>
+							</div>
+							<p class="detail-title">Số lượng: </p>
+							<input type="number" name="" placeholder="" value="1">
+							<p><button type="submit">THÊM VÀO GIỎ</button></p>
+							<p class="detail-title">Mô tả</p>
+							<p class="detail-title">Chi tiết: </p>
+							<p class="small-detail-text">
+								- Áo Thun Nam Zakado Cổ Tròn Cao Cấp N1 có thiết kế kiểu cơ bản với dáng ôm vừa phải, cổ tròn, tay ngắn, ngực áo thêu logo nhỏ.
+							</p>
+							<p class="small-detail-text">
+							- Áo Thun Nam Zakado có màu sắc trẻ trung, dễ dàng phối cùng quần jeans hoặc shorts, giày thể thao hoặc giày lười, thích hợp sử dụng trong các dịp đi chơi, gặp gỡ bạn bè
+							</p>
+							<p class="detail-title">Chất liệu: </p>
+							<p class="small-detail-text">- Cotton được xử lý bằng công nghệ Nano pha Spandex mềm mát, thoáng khí, thấm hút mồ hôi tốt đồng thời có khả năng co giãn nhẹ nhàng, tạo cảm giác thoải mái trong mọi hoạt động.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+				<div class="row text-center mg-y2 title">
+					<div class="col-md-12">
+						<h3>Sản phẩm tương tự</h3>
+					</div>
+					<div class="col-md-5"></div>
+					<div class="col-md-2">
+						<div class="line"></div>
+					</div>
+					<div class="col-md-5"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row product">
+					<div class="col-md-3 col-6 item">
+						<div class="about-img">
+							<a href="detail.html"><img src="img/bestsell2.png"></a>
+							<p class="discount">-20%</p>
+						</div>
+						<div class="about-content">
+							<div class="row">
+								<div class="col-md-8">
+									<a href="detail.html">Áo thun nam basic 2020</a>
+									<p style="color:#8e8e8e">350.000₫ </p>
+								</div>
+								<div class="col-md-2">
+									<button type="submit"><i class="fa fa-cart-plus"></i> Mua ngay</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-6 item">
+						<div class="about-img">
+							<a href="detail.html"><img src="img/bestsell3.png"></a>
+						</div>
+						<div class="about-content">
+							<div class="row">
+								<div class="col-md-8">
+									<a href="detail.html">Áo thun nam game FreeFire</a>
+									<p>150.000₫ <b>220.000₫</b> </p>
+								</div>
+								<div class="col-md-2">
+									<button type="submit"><i class="fa fa-cart-plus"></i> Mua ngay</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-6 item">
+						<div class="about-img">
+							<a href="detail.html"><img src="img/bestsell4.png"></a>
+						</div>
+						<div class="about-content">
+							<div class="row">
+								<div class="col-md-8">
+									<a href="detail.html">Áo thun nam JAPAN GOKING</a>
+									<p style="color:#8e8e8e">450.000₫ </p>
+								</div>
+								<div class="col-md-2">
+									<button type="submit"><i class="fa fa-cart-plus"></i> Mua ngay</button>
+								</div>
+							</div>	
+						</div>
+					</div>
+					<div class="col-md-3 col-6 item">
+						<div class="about-img">
+							<a href="detail.html"><img src="img/bestsell5.png"></a>
+							<p class="discount">-22%</p>
+						</div>
+						<div class="about-content">
+							<div class="row">
+								<div class="col-md-8">
+									<a href="detail.html">Áo thun nam Owen</a>
+									<p style="color:#8e8e8e">350.000₫ </p>
+								</div>
+								<div class="col-md-2">
+									<button type="submit"><i class="fa fa-cart-plus"></i> Mua ngay</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+<footer>
+	<div class="container">
+				<div class="row about-email">
+				<div class="col-md-3"></div>
+				<div class="col-md-6 col-12">
+					<div class="row">
+					<div class="col-md-4 col-5">
+						<div class="row">
+						<div class="col-md-2 col-2 mail-icon">
+							<i class="fas fa-envelope-open-text"></i>
+						</div>
+						<div class="col-md-10 col-10 mail-text">
+							<h5>Đăng kí nhận tin</h5>
+						</div>
+						</div>
+				</div>
+					<div class="col-md-1 col-1"></div>
+					<div class="col-md-7 col-6">
+						<input type="email" name="" placeholder="Nhập email của bạn"> |
+						<a href=""><i class="far fa-envelope"></i></a>
+					</div>
+					</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+			<div class="container-fluid" style="background-color: #f8f8f8">
+				<div class="container">
+					<div class="row about-footer">
+						<div class="col-md-3">
+							<div class="footer-title">
+								<h4 class="footer-item-title">GIỚI THIỆU</h4>
+								<p style="margin-bottom: 0">
+									PhuongDong fashion trang mua sắm trực tuyến của thương hiệu thời trang Lama, thời trang nam, nữ, phụ kiện, giúp bạn tiếp cận xu hướng thời trang mới nhất
+								</p>
+								<img src="img/bocongthuong.png">
+							</div>
+						</div>
+						<div class="col-md-3 ">
+							<h4 class="footer-item-title">LIÊN KẾT</h4>
+							<ul class="link">
+								<li><a href="">Tìm kiếm</a></li>
+								<li><a href="">Giới thiệu</a></li>
+								<li><a href="">Chính sách đổi trả</a></li>
+								<li><a href="">Chính sách bảo mật</a></li>
+								<li><a href="">Điều khoản dịch vụ</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h4 class="footer-item-title">THÔNG TIN LIÊN HỆ</h4>
+							<ul class="footer-contact">
+								<li>
+									<div class="row">
+										<div class="col-2">
+										<i class="fas fa-map-marker-alt"></i>
+										</div>
+										<div class="col-10">
+									<p>99/20/23 Nguyễn Văn Linh,phường Tân Thuận Tây, Quận 7, Tp.Hồ Chí Minh</p>
+									</div>
+								</li>
+								<li>
+									<div class="row">
+										<div class="col-2">
+										<i class="fas fa-phone-alt"></i>
+										</div>
+										<div class="col-10">
+										<p>0824.26.46.86</p>
+										</div>
+									</div>
+								</li>
+
+								<li>
+									<div class="row">
+										<div class="col-2">
+										<i class="fas fa-envelope"></i>
+										</div>
+										<div class="col-10">
+										<p>phuongdong12a3@gmail.com</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-12">
+							<h4 class="footer-item-title">FANPAGE</h4>
+							<a href=""><img src="img/fanpage.png" class="img-fanpage"></a>
+						</div>
+						<div class="col-md-12 text-center">
+							<ul class="social">
+								<li><a href=""><i class="fab fa-facebook" style="color: #3b5999"></i></a>
+								</li>
+								<li><a href=""><i class="fab fa-google" style="color: #ed1c24"></i></a>
+								</li>
+								<li><a href=""><i class="fab fa-twitter" style="color: #00aced"></i></a>
+								</li>
+								<li><a href=""><i class="fab fa-youtube" style="color: #f70000"></i></a>
+								</li>
+								<li><a href=""><i class="fab fa-skype" style="color: #01a9eb"></i></a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-12 text-center footer-bottom text-footer">	
+							<ul>
+								<li><a href="">Tìm kiếm</a></li>|
+								<li><a href="">Giới thiệu</a></li>|
+								<li><a href="">Chính sách đổi trả</a></li>|
+								<li><a href="">Chính sách bảo mật</a></li>|
+								<li><a href="">Điều khoản dịch vụ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+	<div class="hotline-phone-ring" style="position: fixed;right: 0 ;bottom: 80px">
+    <div class="hotline-phone-ring-circle" style="border: 2px solid #2168f3;"></div>
+    <div class="hotline-phone-ring-circle-fill" style="background-color: #2168f3"></div>
+    <div class="hotline-phone-ring-img-circle" style="background-color: #2168f3"> <a href="tel:0352833656" class="pps-btn-img">
+        <i style="color:#fff;font-size:20px;" class="fas fa-envelope"></i> </a> </div>
+	</div>
+	<div class="hotline-phone-ring" style="position: fixed;right: 0 ;bottom: 0">
+    <div class="hotline-phone-ring-circle"></div>
+    <div class="hotline-phone-ring-circle-fill"></div>
+    <div class="hotline-phone-ring-img-circle"> <a href="tel:0352833656" class="pps-btn-img">
+        <i style="color:#fff;font-size:20px;" class="fas fa-phone-alt"></i> </a> </div>
+	</div>
+</footer>
+</body>
+</html>
